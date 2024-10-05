@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Solana Wallet Connection dApp
+
+## Overview
+
+This decentralized application (dApp) allows users to connect their Phantom Wallet, view their Solana (SOL) balance, and send SOL to other wallet addresses. Built with Next.js and TypeScript, this dApp leverages the Solana blockchain for fast and low-cost transactions.
+
+## Features
+
+- **Connect Phantom Wallet**: Users can easily connect their Phantom wallet to the dApp.
+- **View SOL Balance**: After connecting, users can view their current SOL balance.
+- **Send SOL**: Users can send SOL to any Solana wallet address.
+
+## Technologies Used
+
+- **Next.js**: A React framework for server-rendered applications.
+- **TypeScript**: A superset of JavaScript that adds static typing.
+- **Solana Web3.js**: A JavaScript library for interacting with the Solana blockchain.
+- **Phantom Wallet**: A popular wallet for managing Solana tokens and interacting with dApps.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js and npm installed on your machine.
+- Phantom Wallet installed in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   git clone https://github.com/yourusername/solana-wallet-dapp.git
+   cd solana-wallet-dapp
+   ```
 
-## Learn More
+2. Install the required dependencies:
+    ```bash
+    npm install
+    ```
+3. Start the development server:
+    ```bash
+    npm run dev
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open your browser and navigate to `http://localhost:3000` to view the dApp.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### How To Use:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Click on the "Connect Wallet" button to connect your Phantom Wallet.
+2. Once connected, your wallet address and current SOL balance will be displayed.
+3. Enter the recipient's wallet address and the amount of SOL you want to send.
+4. Click the "Send SOL" button to initiate the transaction.

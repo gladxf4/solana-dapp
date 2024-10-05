@@ -29,8 +29,8 @@ This decentralized application (dApp) allows users to connect their Phantom Wall
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/solana-wallet-dapp.git
-   cd solana-wallet-dapp
+   git clone https://github.com/gladxf4/solana-dapp.git
+   cd solana-dapp
    ```
 
 2. Install the required dependencies:
